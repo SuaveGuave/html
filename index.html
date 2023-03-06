@@ -41,57 +41,38 @@
     </nav>
 
     <main>
-        <form action="#" method="GET">
+        
+        <form action="mailto:joseph.hopkins22@my.northampton.ac.uk?subject=Contact Form" method="GET">
 
-            <input type="text" name="myinpput">
-            <input type="submit" value="submit">
-
-        </form>
-
-        <form action="#" method="GET">
+            <label for="myinpput">Label 1</label>
+            <input type="text" name="myinpput" value="text value" required>
             
+            <label for="myselect">Label 2</label>
             <select name="myselect">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
                 <option value="3">Option 3</option>
                 <option value="4">Option 4</option>
-                <option value="5">Option 5</option>
+                <option value="5" selected="selected">Option 5</option>
             </select>
-            
-            <input type="submit" value="submit">
-        
-        </form>
 
-        <form action="#" method="GET">
-            
+            <label for="mycheckbox">Label 3</label>
             <input type="checkbox" name="mycheckbox" value="ticked">
-            <input type="submit" value="submit">
-        
-        </form>
 
-        <form action="#" method="GET">
-            
+            <label for="myradio">Label 4</label>
             <input type="radio" name="myradio" value="radio button 1">
             <input type="radio" name="myradio" value="radio button 2">
             <input type="radio" name="myradio" value="radio button 3">
-            <input type="submit" value="submit" name="submit">
-        
-        </form>
 
-        <form action="#" method="GET">
-            
+            <label for="mypassword">Label 5</label>
             <input type="password" name="mypassword">
-            <input type="submit" value="submit" name="submit">
-        
-        </form>
 
-        <form action="#" method="GET">
-            
-            <textarea name=“mytextarea">
+            <label for="mytextarea">Label 6</label>
+            <textarea name="mytextarea" placeholder="type your paragraph here">
             </textarea>
             
-            <input type="submit" value="submit" name="submit">
-        
+            <input type="submit" value="submit">
+
         </form>
 
     </main>
